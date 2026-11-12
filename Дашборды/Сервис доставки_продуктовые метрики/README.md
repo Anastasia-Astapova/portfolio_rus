@@ -70,7 +70,7 @@ FROM daily_retention
 WHERE day_since_install < 8
 GROUP BY "Месяц", day_since_install
 ORDER BY "Месяц", day_since_install;
-
+```
 ___
 Структура репозитория:
 
